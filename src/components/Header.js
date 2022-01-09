@@ -13,15 +13,15 @@ const Header = () => {
 
     return (
         <div id="header">
-        <Link to='/' id='logo'>NFT Room</Link>
+        <Link to='/' id='logo'>studioThirteen</Link>
 
         <div id="link-containers">
-          <a>Start Hunting</a>
-          <a>Dark NFTs</a>
-          <a>Community</a>
-          <a>Craft NFT</a>
+          <a>ourNFTs</a>
+          <a>theTeam</a>
+          <a>community</a>
+          <a>mintYourReading</a>
 
-          <button id="connect-wallet" onClick={handleWallet} >{!account ? 'Connect Wallet' : account}</button>
+          <button id="connect-wallet" onClick={handleWallet} >{!account ? 'connectWallet' : account}</button>
         </div>
       </div>
     );

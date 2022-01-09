@@ -1,4 +1,4 @@
-# NFT Marketplace Base Components for Contributors
+# NFT Marketplace Base Components
 
 ## Content
 - Card
@@ -25,7 +25,7 @@ Card component similar div html element.
     ```js 
     <Card width='250px' height='250px' /> 
     ```
-    <img src="https://github.com/yessGlory17/nft-marketplace/blob/base-components/docs/images/base/card-basic-example.png?raw=true" />
+    <img src="../images/base/card-basic-example.png?raw=true" />
 
 - ##### :tada: Child
     ````js 
@@ -42,13 +42,13 @@ Card component similar div html element.
     ````
       
 
-    <img src="https://github.com/yessGlory17/nft-marketplace/blob/base-components/docs/images/base/car-child-example.png?raw=true">
+    <img src="../images/base/car-child-example.png?raw=true">
 
 - ##### :tada: Blur Color
     ```js 
           <Card width='250px' height='250px' blurColor="rgba(78, 242, 154,0.3)"/>
     ```
-    <img src="https://github.com/yessGlory17/nft-marketplace/blob/base-components/docs/images/base/card-blurColor-example.png?raw=true" />
+    <img src="../images/base/card-blurColor-example.png?raw=true" />
 
 
 
@@ -68,26 +68,26 @@ Input for text or number values.
     ```js
           <TextInput width="250px" height="30px" />
     ```
-    <img src="https://github.com/yessGlory17/nft-marketplace/blob/base-components/docs/images/base/textinput-basic-example.png?raw=true" />
+    <img src="../images/base/textinput-basic-example.png?raw=true" />
 
 - ##### :tada: Placeholder
   ```js
     <TextInput width="250px" height="30px"placeholder="Example Placeholder" />
   ```
-  <img src="https://github.com/yessGlory17/nft-marketplace/blob/base-components/docs/images/base/textinput-placeholder-example.png?raw=true" />
+  <img src="../images/base/textinput-placeholder-example.png?raw=true" />
 
 - ##### :tada: Icon
   ```js
     <TextInput width="250px" height="30px" icon={<AiOutlineSearch size="28px" color="#32a852" />} />
   ```
-  <img src="https://github.com/yessGlory17/nft-marketplace/blob/base-components/docs/images/base/textinput-icon-example.png?raw=true"/>
+  <img src="../images/base/textinput-icon-example.png?raw=true"/>
 
 
 - ##### :tada: Type
   ```js
     <TextInput width="250px" height="30px" type="text" />
   ```
-  <img src="https://github.com/yessGlory17/nft-marketplace/blob/base-components/docs/images/base/textinput-basic-example.png?raw=true" />
+  <img src="../images/base/textinput-basic-example.png?raw=true" />
 
 ## :sparkles: Checkbox
 
@@ -101,7 +101,7 @@ Input for text or number values.
   ```js
    <Checkbox name="Checkbox Example" />
   ```
-  <img src="https://github.com/yessGlory17/nft-marketplace/blob/base-components/docs/images/base/checkbox-name-example.png?raw=true" />
+  <img src="../images/base/checkbox-name-example.png?raw=true" />
 
 - ##### :tada: onChange
   ```js
@@ -126,13 +126,13 @@ Input for text or number values.
   <Select items={["test1", "test2", "test3"]} />
   ```
   - Before
-  <img src="https://github.com/yessGlory17/nft-marketplace/blob/base-components/docs/images/base/select-before-example.png?raw=true"/>
+  <img src="../images/base/select-before-example.png?raw=true"/>
 
   - After
-  <img src="https://github.com/yessGlory17/nft-marketplace/blob/base-components/docs/images/base/select-after-example.png?raw=true" />
+  <img src="../images/base/select-after-example.png?raw=true" />
 
   - Selected
-  <img src="https://github.com/yessGlory17/nft-marketplace/blob/base-components/docs/images/base/select-after-select-example.png?raw=true" />
+  <img src="../images/base/select-after-select-example.png?raw=true" />
 
 - ##### :tada: onChange
   ```js
@@ -163,7 +163,7 @@ Input for text or number values.
   ```js
   <Button width="150px" height="30px" textContent="Primary Button" />
   ```
-  <img src="https://github.com/yessGlory17/nft-marketplace/blob/base-components/docs/images/base/button-basic-example.png?raw=true" />
+  <img src="../images/base/button-basic-example.png?raw=true" />
 
 - ##### :tada: Color
   ```js
@@ -174,7 +174,7 @@ Input for text or number values.
     color={Colors.buttons.secondary}
   />
   ```
-  <img src="https://github.com/yessGlory17/nft-marketplace/blob/base-components/docs/images/base/button-color-example.png?raw=true" />
+  <img src="../images/base/button-color-example.png?raw=true" />
 
 - ##### :tada: textColor
   ```js
@@ -186,7 +186,7 @@ Input for text or number values.
     textColor="blue"
   />
   ```
-  <img src="https://github.com/yessGlory17/nft-marketplace/blob/base-components/docs/images/base/button-textColor-example.png?raw=true" />
+  <img src="../images/base/button-textColor-example.png?raw=true" />
 
 - ##### :tada: onClick
   ```js
@@ -220,7 +220,7 @@ Input for text or number values.
   />
   ```
 
-  <img src="https://github.com/yessGlory17/nft-marketplace/blob/base-components/docs/images/base/image-basic-example.png?raw=true" />
+  <img src="../images/base/image-basic-example.png?raw=true" />
 
 
 ## :sparkles: Accordion
@@ -232,7 +232,7 @@ Input for text or number values.
   ```js
   <Accordion width="250px" height="40px" />
   ```
-  <img src="https://github.com/yessGlory17/nft-marketplace/blob/base-components/docs/images/base/accordion-basic.png?raw=true">
+  <img src="../images/base/accordion-basic.png?raw=true">
 
 - ##### :tada: Child
   ```js
@@ -254,7 +254,7 @@ Input for text or number values.
    />
   ```
   - After
-  <img src="https://github.com/yessGlory17/nft-marketplace/blob/base-components/docs/images/base/accordion-basic.png?raw=true">
+  <img src="../images/base/accordion-basic.png?raw=true">
 
   - Before
-  <img src="https://github.com/yessGlory17/nft-marketplace/blob/base-components/docs/images/base/accordion-child-example.png?raw=true" />
+  <img src="../images/base/accordion-child-example.png?raw=true" />

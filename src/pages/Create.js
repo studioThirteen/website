@@ -14,7 +14,7 @@ const Create = () => {
   
   return (
     <div>
-      Create Page
+      mintingPage
      
     </div>
   );
