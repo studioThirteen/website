@@ -1,23 +1,41 @@
-import react from "react";
-import Accordion from "../components/base/Accordion";
-import AccordionHeader from "../components/base/AccordionHeader";
-import Button from "../components/base/Button";
-import Card from "../components/base/Card";
-import Checkbox from "../components/base/Checkbox";
-import Image from "../components/base/Image";
-import Select from "../components/base/Select";
-import TextInput from "../components/base/TextInput";
-import { Colors } from "../constants/Colors";
-import {AiOutlineSearch} from 'react-icons/ai';
+import Header from "../components/Header";
+import "../styles/Home.css";
+import WomanCardList from "../components/WomanCardList";
+import Newsletter from "../components/Newsletter";
+import Footer from "../components/Footer";
 
-const Create = () => {
-  
+/* const list = [
+  { src: 'https://ipfs.io/ipfs/bafybeic4unwdy2o7yetsxw5okjakxihjtdjgavb7slugogqgyy4snq3ege' },
+  { src: 'https://ipfs.io/ipfs/bafybeifbu32f5utuhefk3t4aqrdjjkb2jgn32tfvkwun5ptmhsdzny7zoq' },
+  { src: 'https://ipfs.io/ipfs/bafybeidu4tatoknpt4bqdr3ndvrxhin2m77wvlpd6ukget4e4a42ume3oi' },
+  { src: 'https://ipfs.io/ipfs/bafybeigd4ldqyq3bazxz25rnvskyhpinfrqe7ioyxwgyppojqih7xs35ci' },
+  { src: 'https://ipfs.io/ipfs/bafybeicts7i2po5rlfzvfk2mwrarpdoxasxupgtipbusmpd4hmjaz33zgq' },
+  { src: 'https://ipfs.io/ipfs/bafybeiaarpdwuxcgctyfblq657c2nkt53efjcqvmi5gs7sme34chjkavd4' },
+  { src: 'https://ipfs.io/ipfs/bafybeigkmixdtsafsqto5yllyrcon5z46q2a6hknykxyuajo7hdhjdksny' },
+  { src: 'https://ipfs.io/ipfs/bafybeibogs75n3meemhjw7fn7jub7bca2jskzzt7kjfuyx5y2sdqnlero4' },
+  { src: 'https://ipfs.io/ipfs/bafybeif7uchmi33epulnhey72gnduigus6jnyodlhlt7wz72efcthv4cri' },
+  { src: 'https://ipfs.io/ipfs/bafybeiab2z5ihffik33dzew5vejedjxwwtnf3gdk5p3f7pwnmyu2slvnae' },
+  { src: 'https://ipfs.io/ipfs/bafybeibj6ndcaa77nznengbmdo3n5esfq2nql6evtzx7rcson2jrqdsise' },
+  { src: 'https://ipfs.io/ipfs/bafybeifi4uowt3i3swc7kivm7gr3ubigjgin4m7fkzmcoku7gpb4asshui' },
+  { src: 'https://ipfs.io/ipfs/bafybeifdfpsx7eqee7r55dq3j6lyeutffdwbdqrvgoc5gm3qde5ldyenwi' },
+  { src: 'https://ipfs.io/ipfs/bafybeigky3dn6cvnnqgyddurnjaxheut4cpw4qodeeqxf3bblml2j6vvzy' },
+  { src: 'https://ipfs.io/ipfs/bafybeib53frlure42ektov3occay3iyqndy5olwyksevuef4owfse2uiiy' }
+] */
+
+const Woman = () => {
+
   return (
-    <div>
-      mintingPage
-     
+    <div id="home">
+      <Header />
+      <p id="card-list-header-text">'Woman'</p>
+      <div id="list-container">
+        {/* <CardList list={list} /> */}
+        <WomanCardList />
+      </div>
+      <Newsletter />
+      <Footer />
     </div>
   );
 };
 
-export default Create;
+export default Woman;

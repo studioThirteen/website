@@ -5,7 +5,7 @@ const Card = React.forwardRef(
   (
     {
       width = "250px",
-      height = "300px",
+      height = "370px",
       child,
       blurColor = "rgba(48,118,234,0.2)",
       onClick,

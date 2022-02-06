@@ -31,7 +31,7 @@
   position: absolute;
   top:0;
   left:0;
-  background:url('../assets/splash.png');
+  background:url('../../public/assets/web/splash.png');
   background-position: center;
   mix-blend-mode: screen;
   opacity: 0.3;
@@ -55,8 +55,7 @@
 #logo {
   color: #ffffff;
   padding: 10px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Montserrat, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-size: 24px;
   text-decoration: none;
@@ -72,8 +71,7 @@
   border-radius: 50px;
   padding: 10px;
   margin-left: 30px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Montserrat, "Open Sans", "Helvetica Neue", sans-serif;
   cursor: pointer;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -82,8 +80,7 @@
 a {
   margin-left: 30px;
   padding: 15px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Montserrat, "Open Sans", "Helvetica Neue", sans-serif;
   border: none;
   cursor: pointer;
   transition: border 1.5s ease;
@@ -102,8 +99,7 @@ a {
 #header-text-first {
   margin-top: 90px;
   font-size: 56px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Druk Wide Web', "Open Sans", "Helvetica Neue", sans-serif;
   color: #ffffff;
   font-family: "Rock Salt", cursive;
 }
@@ -117,8 +113,7 @@ a {
 }
 
 #header-subtext {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Druk Wide Web', "Open Sans", "Helvetica Neue", sans-serif;
   padding: 30px;
   font-size: 18px;
   color: #666c70;
@@ -143,8 +138,7 @@ button#explore {
   border-radius: 30px;
   font-size:21px;
   border: none;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Montserrat, "Open Sans", "Helvetica Neue", sans-serif;
 
   background: #11998e; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -168,8 +162,7 @@ button#create {
   border-radius: 30px;
   font-size:21px;
   border: none;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Montserrat, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: transparent;
   border: 2px solid #ffffff;
   color: #ffffff;
@@ -209,8 +202,7 @@ button#create {
   #header-text-first {
     margin-top: 90px;
     font-size: 36px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: 'Druk Wide Web', "Open Sans", "Helvetica Neue", sans-serif;
     color: #ffffff;
     font-family: "Rock Salt", cursive;
   }
@@ -224,8 +216,7 @@ button#create {
   }
   
   #header-subtext {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: 'Druk Wide Web', "Open Sans", "Helvetica Neue", sans-serif;
     padding: 30px;
     font-size: 15px;
     color: #666c70;
@@ -250,8 +241,7 @@ button#create {
     margin-right: 5px;
     border-radius: 30px;
     border: none;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: Montserrat, "Open Sans", "Helvetica Neue", sans-serif;
   
     background: #11998e; /* fallback for old browsers */
     background: -webkit-linear-gradient(
@@ -276,8 +266,7 @@ button#create {
     margin-left: 5px;
     border-radius: 30px;
     border: none;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: Montserrat, "Open Sans", "Helvetica Neue", sans-serif;
     background-color: #100F17;
     border: 1px solid #ffffff;
     
